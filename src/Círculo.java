@@ -16,11 +16,17 @@ public class  Círculo extends Figure {
 
     @Override
     public double obtenerPerimetro() {
-        return 0;
+        double perimetro;
+        perimetro= ((2*Math.PI)*radio);
+        return perimetro;
+
     }
 
     @Override
     public double obtenerArea() {
-        return 0;
+        double area;
+        area = (Math.PI*Math.pow(radio,2));
+        return area;
+
     }
 }

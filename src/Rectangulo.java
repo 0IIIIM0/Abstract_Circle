@@ -26,11 +26,15 @@ public class Rectangulo extends Figure{
 
     @Override
     public double obtenerPerimetro() {
-        return 0;
+        double perimetro;
+        perimetro=(2*ancho+2*alto);
+        return perimetro;
     }
 
     @Override
     public double obtenerArea() {
-        return 0;
+        double area;
+        area=alto*ancho;
+        return area;
     }
 }
