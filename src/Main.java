@@ -21,5 +21,11 @@ public class Main {
         //getters and setter
         //implementar obtenerArea
         //implementar obtenerPerimetro
+
+        Círculo circulo = new Círculo("azul",false,15.62);
+        Rectangulo rectangulo = new Rectangulo("amarillo",true,19.85,45.60);
+
+        System.out.println(rectangulo.obtenerArea());
+        System.out.println(circulo.obtenerPerimetro());
     }
 }

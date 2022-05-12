@@ -27,7 +27,7 @@ public class Rectangulo extends Figure{
     @Override
     public double obtenerPerimetro() {
         double perimetro;
-        perimetro=(2*ancho+2*alto);
+        perimetro=((2*ancho)+(2*alto));
         return perimetro;
     }
 
